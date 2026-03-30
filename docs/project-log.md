@@ -119,6 +119,12 @@ From .env.example:
 - Baseline verification completed:
   - lint pass
   - build pass
+- Implemented public/admin split in frontend:
+  - Public landing in `/`
+  - Admin access in `/admin`
+  - Protected internal view in `/admin/panel`
+- Added routing and route guard with React Router.
+- Added bootstrap admin session flow (email allowlist + access code via env).
 
 ## 7) Pending Technical Risks (Current)
 

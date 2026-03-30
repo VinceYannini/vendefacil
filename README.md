@@ -40,6 +40,19 @@ src/
 Existe un archivo `.env.example` con el contrato de configuracion minimo.
 Copialo a `.env` y rellena solo lo que uses en tu iteracion actual.
 
+Variables de acceso admin temporal:
+- `VITE_ADMIN_ALLOWED_EMAILS`: lista separada por comas de correos habilitados.
+- `VITE_ADMIN_ACCESS_CODE`: codigo compartido para acceso inicial.
+
+## Rutas actuales
+
+- `/`: landing publica para presentar servicios a negocios.
+- `/admin`: acceso admin (correo + codigo temporal).
+- `/admin/panel`: vista interna protegida por sesion.
+
+Nota: esta proteccion es una base inicial de frontend. Para produccion debe
+complementarse con autenticacion en backend y reglas de autorizacion.
+
 ## Roadmap cercano
 
 1. Definir e implementar un flujo de negocio principal del cliente.

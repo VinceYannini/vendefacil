@@ -13,10 +13,13 @@ Last updated: 2026-03-30
 - [x] Environment contract file created (.env.example).
 - [x] README updated with real project context.
 - [x] ESLint rules strengthened with practical safeguards.
+- [x] Public landing implemented as business-facing front page.
+- [x] Admin module split implemented with protected internal route.
+- [x] Initial admin access bootstrap via env-configured allowlist/code.
 
 ## In Progress Checkpoints
 
-- [ ] Define first business flow for the real client case.
+- [ ] Move admin access from bootstrap frontend to real backend auth (Supabase/Auth provider + roles).
 
 ## Pending Checkpoints (Recommended Next)
 
